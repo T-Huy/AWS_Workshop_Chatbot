@@ -1,5 +1,4 @@
 baseURL = "https://t-huy.github.io/AWS_Workshop_Chatbot/"
-relativeURLs = false
 canonifyURLs = true
 
 # Change the default theme to be use when building the site with Hugo

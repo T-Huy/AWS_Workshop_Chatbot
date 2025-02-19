@@ -10,7 +10,7 @@ chapter = false
 #### Overview
 In today's digital era, providing fast and efficient customer service is crucial for businesses. AI chatbots have become a powerful tool for automating customer interactions, reducing costs, and enhancing user experience. This project focuses on building an AI chatbot using **Amazon Lex** combined with **Knowledge Bases for Amazon Bedrock**, creating an intelligent and flexible solution capable of delivering accurate and context-aware responses to user queries.
 
-![Chatbot](/images/chatbot.png?width=90pc)
+![Chatbot](https://t-huy.github.io/AWS_Workshop_Chatbot/images/chatbot.png?width=90pc)
 
 #### Main Content
 1. [Introduction](1-introduction)

@@ -17,30 +17,30 @@ To avoid unnecessary costs, delete the resources you created in this exercise. T
 #### Delete the Knowledge Bases
 1. Go to the **Amazon Bedrock Console**.
 2. Select **Knowledge Bases**, then choose the previously created Knowledge Base. Click **Delete**.
-![Clean Up Resources](/images/Clean-Up-Resource/1-select-knowledge-bases.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/1-select-knowledge-bases.png?width=90pc)
 3. Enter **delete**,  then click **Delete**.
-![Clean Up Resources](/images/Clean-Up-Resource/2-delete-knowledge-bases.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/2-delete-knowledge-bases.png?width=90pc)
 
 #### Delete the Opensearch
 1. Go to the **Amazon OpenSearch Console**
 2. Under the **Serverless** section, select **Dashboard**.
 3. Choose the **Collection** you created, then click **Delete**
-![Clean Up Resources](/images/Clean-Up-Resource/3-select-opensearch.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/3-select-opensearch.png?width=90pc)
 4. Enter **confirm** to confirm, then click **Delete**
-![Clean Up Resources](/images/Clean-Up-Resource/4-delete-opensearch.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/4-delete-opensearch.png?width=90pc)
 
 #### Delete the S3 Bucket
 1. Go to the **Amazon S3 Console**.
 2. Select **s3-data-lex**, then click **Delete**.
-![Clean Up Resources](/images/Clean-Up-Resource/5-select-s3.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/5-select-s3.png?width=90pc)
 3. Click **Empty bucket**.
-![Clean Up Resources](/images/Clean-Up-Resource/6-empty-bucket.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/6-empty-bucket.png?width=90pc)
 4. Enter **permanently delete**, then click **Empty**.
-![Clean Up Resources](/images/Clean-Up-Resource/7-comfirm-empty-bucket.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/7-comfirm-empty-bucket.png?width=90pc)
 5. Enter **s3-data-lex**, then click **Delete bucket**.
-![Clean Up Resources](/images/Clean-Up-Resource/8-delete-bucket.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/8-delete-bucket.png?width=90pc)
 
 #### Delete the Amazon Lex
 1. Go to the **Amazon Lex Console**.
 2. Select the Bots **ChatbotAI**, then under **Action**, click **Delete** to remove the chatbot
-![Clean Up Resources](/images/Clean-Up-Resource/9-select-and-delete-amazon-lex.png?width=90pc)
+![Clean Up Resources](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Clean-Up-Resource/9-select-and-delete-amazon-lex.png?width=90pc)

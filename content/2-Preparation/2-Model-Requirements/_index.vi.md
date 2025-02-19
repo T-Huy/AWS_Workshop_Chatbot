@@ -18,15 +18,15 @@ Bạn có thể triển khai giải pháp đến một khu vực khác so với 
 1. Tìm kiếm **Bedrock**
 2. Chọn **Bedrock**
 
-![1-bedrock](/images/AWS-Bedrock/1-bedrock.png?width=90pc)
+![1-bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/AWS-Bedrock/1-bedrock.png?width=90pc)
 
 3. Chọn **Model access**
 4. Chọn **Modify model access**
-![Bedrock](/images/Model-Access/Bedrock.png?width=90pc)
+![Bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Bedrock.png?width=90pc)
 5. Chọn **Next**
-![Next](/images/Model-Access/next.png?width=90pc)
+![Next](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Next.png?width=90pc)
 6. Chọn **Submit**
-![Submit](/images/Model-Access/submit.png?width=90pc)
+![Submit](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Submit.png?width=90pc)
 7. **Amazon Bedrock**
-![Amazon bedrock](/images/Model-Access/base-model.png?width=90pc)
+![Amazon bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/base-model.png?width=90pc)
 

@@ -18,15 +18,15 @@ You can deploy the solution to a different region from where you requested Base 
 1. Find **Bedrock**
 2. Click **Bedrock**
 
-![1-bedrock](/images/AWS-Bedrock/1-bedrock.png?width=90pc)
+![1-bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/AWS-Bedrock/1-bedrock.png?width=90pc)
 
 3. Click **Model access**
 4. Click **Modify model access**
-![Bedrock](/images/Model-Access/Bedrock.png?width=90pc)
+![Bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Bedrock.png?width=90pc)
 5. Click **Next**
-![Next](/images/Model-Access/next.png?width=90pc)
+![Next](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Next.png?width=90pc)
 6. Click **Submit**
-![Submit](/images/Model-Access/submit.png?width=90pc)
+![Submit](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Submit.png?width=90pc)
 7. **Amazon Bedrock**
-![Amazon bedrock](/images/Model-Access/base-model.png?width=90pc)
+![Amazon bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/base-model.png?width=90pc)
 

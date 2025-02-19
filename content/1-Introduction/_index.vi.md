@@ -22,4 +22,4 @@ pre = "<b>1. </b>"
 3. Triển khai retrieval-augmented generation (RAG) để truy xuất kiến thức theo thời gian thực từ tài liệu, cơ sở dữ liệu hoặc nguồn web.
 
 #### Kiến trúc
-![Architecture](/images/Architecture.png?width=90pc)
+![Architecture](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Architecture.png?width=90pc)

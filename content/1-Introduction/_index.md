@@ -22,7 +22,7 @@ pre = "<b>1. </b>"
 3. Implement retrieval-augmented generation **(RAG)** to pull real-time knowledge from documents, databases, or web sources.
 
 #### Architecture
-![Architecture](/images/Architecture.png?width=90pc)
+![Architecture](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Architecture.png?width=90pc)
 
 
 

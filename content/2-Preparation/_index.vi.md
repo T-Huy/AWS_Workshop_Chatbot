@@ -7,5 +7,5 @@ pre = "<b>2. </b>"
 +++
 
 #### Nội dung
-1. [Tạo tài khoản IAM User](1-creating-iam-user)
+1. [Tạo tài khoản IAM User](1-create-an-iam-user)
 2. [Yêu cầu về mô hình](2-model-requirements)

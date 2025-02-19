@@ -7,6 +7,6 @@ pre = "<b>3. </b>"
 +++
 
 #### Nội dung
-1. [Tạo S3 Bucket](1-creating-s3-bucket)
-2. [Tạo Cơ sở kiến thức cho Amazon Bedrock](2-creating-knowledge-bases)
-3. [Tạo Amazon Lex](3-creating-amazon-lex)
+1. [Tạo S3 Bucket](1-create-a-s3-bucket)
+2. [Tạo Cơ sở kiến thức cho Amazon Bedrock](2-create-a-knowledge-bases)
+3. [Tạo Amazon Lex](3-create-an-amazon-lex)

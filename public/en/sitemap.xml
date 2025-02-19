@@ -2,171 +2,171 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/2-preparation/1-create-a-iam-user/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/2-preparation/1-create-an-iam-user/</loc>
     <lastmod>2020-05-14T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-preparation/1-create-a-iam-user/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/2-preparation/1-create-an-iam-user/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-preparation/1-create-a-iam-user/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/2-preparation/1-create-an-iam-user/"
                 />
   </url><url>
-    <loc>//localhost:1313/1-introduction/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/1-introduction/</loc>
     <lastmod>2020-05-14T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/1-introduction/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/1-introduction/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/1-introduction/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/1-introduction/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-practice/1-create-a-s3-bucket/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/3-practice/1-create-a-s3-bucket/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-practice/1-create-a-s3-bucket/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/3-practice/1-create-a-s3-bucket/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-practice/1-create-a-s3-bucket/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/3-practice/1-create-a-s3-bucket/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-preparation/2-model-requirements/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/2-preparation/2-model-requirements/</loc>
     <lastmod>2020-05-14T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-preparation/2-model-requirements/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/2-preparation/2-model-requirements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-preparation/2-model-requirements/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/2-preparation/2-model-requirements/"
                 />
   </url><url>
-    <loc>//localhost:1313/2-preparation/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/2-preparation/</loc>
     <lastmod>2020-05-14T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/2-preparation/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/2-preparation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/2-preparation/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/2-preparation/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-practice/2-create-a-knowledge-bases/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/3-practice/2-create-a-knowledge-bases/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-practice/2-create-a-knowledge-bases/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/3-practice/2-create-a-knowledge-bases/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-practice/2-create-a-knowledge-bases/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/3-practice/2-create-a-knowledge-bases/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-practice/3-create-a-amazon-lex/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/3-practice/3-create-a-amazon-lex/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-practice/3-create-a-amazon-lex/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/3-practice/3-create-a-amazon-lex/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-practice/3-create-a-amazon-lex/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/3-practice/3-create-a-amazon-lex/"
                 />
   </url><url>
-    <loc>//localhost:1313/3-practice/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/3-practice/</loc>
     <lastmod>1970-01-01T07:33:40+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/3-practice/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/3-practice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/3-practice/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/3-practice/"
                 />
   </url><url>
-    <loc>//localhost:1313/4-test-result/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/4-test-result/</loc>
     <lastmod>2020-05-14T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/4-test-result/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/4-test-result/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/4-test-result/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/4-test-result/"
                 />
   </url><url>
-    <loc>//localhost:1313/5-clean-up-resources/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/5-clean-up-resources/</loc>
     <lastmod>2020-05-14T00:38:32+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/5-clean-up-resources/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/5-clean-up-resources/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/5-clean-up-resources/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/5-clean-up-resources/"
                 />
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/</loc>
     <lastmod>1970-01-01T07:33:41+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/"
                 />
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/categories/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/categories/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/AWS_Workshop_Chatbot/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/tags/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/vi/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/"
+                href="http://localhost:1313/AWS_Workshop_Chatbot/tags/"
                 />
   </url>
 </urlset>

@@ -24,9 +24,9 @@ Bạn có thể triển khai giải pháp đến một khu vực khác so với 
 4. Chọn **Modify model access**
 ![Bedrock](/images/Model-Access/Bedrock.png?width=90pc)
 5. Chọn **Next**
-![Next](/images/Model-Access/Next.png?width=90pc)
+![Next](/images/Model-Access/next.png?width=90pc)
 6. Chọn **Submit**
-![Submit](/images/Model-Access/Submit.png?width=90pc)
+![Submit](/images/Model-Access/submit.png?width=90pc)
 7. **Amazon Bedrock**
 ![Amazon bedrock](/images/Model-Access/base-model.png?width=90pc)
 

@@ -8,9 +8,9 @@ pre = "<b>2.1 </b>"
 
 #### Creat an IAM User
 1. Search **IAM** and click **IAM**.
-![IAM](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/IAM.png?width=90pc)
+![IAM](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/1-IAM.png?width=90pc)
 2. In the left navigation bar, select **User**, then click **Create User**
-![User](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/user.png?width=90pc)
+![User](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/2-user.png?width=90pc)
 3. On the **Specify user details** page, enter the following information:
     - User name: **Huy**.
     - Access type: tick **AWS Management Console access** to allow users to access AWS Management Console.

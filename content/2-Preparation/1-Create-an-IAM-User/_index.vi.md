@@ -8,9 +8,9 @@ pre = "<b>2.1 </b>"
 
 #### Tạo tài khoản IAM User
 1. Tìm kiếm **IAM** and click **IAM**.
-![IAM](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/IAM.png?width=90pc)
+![IAM](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/1-IAM.png?width=90pc)
 2. Trong thanh điều hướng bên trái, chọn **User**, sau đó nhấp vào **Create User**
-![User](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/user.png?width=90pc)
+![User](https://t-huy.github.io/AWS_Workshop_Chatbot/images/IAM-User/2-user.png?width=90pc)
 3. Tại trang **Set user details**, nhập các thông tin sau:
     - Tên người dùng: **Huy**.
     - Loại quyền truy cập: Đánh dấu vào **AWS Management Console access** để cho phép người dùng truy cập bảng điều khiển AWS.

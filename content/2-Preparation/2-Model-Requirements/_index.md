@@ -24,9 +24,9 @@ You can deploy the solution to a different region from where you requested Base 
 4. Click **Modify model access**
 ![Bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Bedrock.png?width=90pc)
 5. Click **Next**
-![Next](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Next.png?width=90pc)
+![Next](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/next.png?width=90pc)
 6. Click **Submit**
-![Submit](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Submit.png?width=90pc)
+![Submit](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/submit.png?width=90pc)
 7. **Amazon Bedrock**
 ![Amazon bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/base-model.png?width=90pc)
 

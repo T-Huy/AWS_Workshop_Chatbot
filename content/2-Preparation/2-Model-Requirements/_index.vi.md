@@ -24,9 +24,9 @@ Bạn có thể triển khai giải pháp đến một khu vực khác so với 
 4. Chọn **Modify model access**
 ![Bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Bedrock.png?width=90pc)
 5. Chọn **Next**
-![Next](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Next.png?width=90pc)
+![Next](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/next.png?width=90pc)
 6. Chọn **Submit**
-![Submit](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/Submit.png?width=90pc)
+![Submit](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/submit.png?width=90pc)
 7. **Amazon Bedrock**
 ![Amazon bedrock](https://t-huy.github.io/AWS_Workshop_Chatbot/images/Model-Access/base-model.png?width=90pc)
 

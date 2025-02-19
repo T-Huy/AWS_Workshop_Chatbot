@@ -1,6 +1,5 @@
 baseURL = "https://t-huy.github.io/"
 canonifyURLs = true
-relativeURLs = false
   
 # Change the default theme to be use when building the site with Hugo
 theme = "hugo-theme-learn"

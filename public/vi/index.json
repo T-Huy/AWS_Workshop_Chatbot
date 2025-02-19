@@ -1,0 +1,92 @@
+[
+{
+	"uri": "//localhost:1313/vi/2-preparation/1-create-a-iam-user/",
+	"title": "Tạo IAM User",
+	"tags": [],
+	"description": "",
+	"content": "Tạo IAM User Tìm kiếm IAM and click IAM. Trong thanh điều hướng bên trái, chọn User, sau đó nhấp vào Create User Tại trang Set user details, nhập các thông tin sau: Tên người dùng: Huy. Loại quyền truy cập: Đánh dấu vào AWS Management Console access để cho phép người dùng truy cập bảng điều khiển AWS. Mật khẩu bảng điều khiển: chọn Custom password và nhập mật khẩu mà bạn muốn cho người dùng. Yêu cầu đặt lại mật khẩu: bỏ chọn tùy chọn này để người dùng không cần thay đổi mật khẩu khi đăng nhập lần đầu. Kiểm tra và chọn Next. Tại trang Set permissions, thực hiện: Chọn Attach policies directly để chọn phương thức cấp quyền trực tiếp cho người dùng. Một người dùng IAM với chính sách AdministratorAccess được cấp quyền (đối với sản xuất, chúng tôi khuyên bạn nên hạn chế quyền truy cập theo nhu cầu). Tại trang Add tags (optional), giữ nguyên mặc định và chọn Next. Tại trang Review and create, kiểm tra thông tin và chọn Create user Khi khởi tạo hoàn tất, nhấn Return to users list để trở lại IAM Console. IAM User đã được tạo thành công. "
+},
+{
+	"uri": "//localhost:1313/vi/1-introduction/",
+	"title": "Tạo mới tài khoản AWS",
+	"tags": [],
+	"description": "",
+	"content": "Nội dung:\nCác thành phần chính Mục tiêu của Workshop Kiến trúc Các thành phần chính Amazon Lex – Dịch vụ AI được quản lý toàn diện để xây dựng giao diện hội thoại bằng giọng nói và văn bản. Nó sử dụng nhận diện ngôn ngữ tự nhiên (NLU) và nhận dạng giọng nói tự động (ASR) để tạo ra trải nghiệm trò chuyện linh hoạt và hấp dẫn. Knowledge Bases cho Amazon Bedrock – Nâng cao khả năng của chatbot bằng cách tích hợp các nguồn kiến thức bên ngoài. Điều này cho phép retrieval-augmented generation (RAG), giúp bot cung cấp phản hồi chính xác và theo ngữ cảnh dựa trên dữ liệu thực tế theo thời gian thực. Mục tiêu của Workshop Học cách thiết lập và cấu hình Amazon Lex để thiết kế các kịch bản hội thoại cho chatbot. Tích hợp Knowledge Bases cho Amazon Bedrock để cải thiện độ chính xác của phản hồi. Triển khai retrieval-augmented generation (RAG) để truy xuất kiến thức theo thời gian thực từ tài liệu, cơ sở dữ liệu hoặc nguồn web. Kiến trúc "
+},
+{
+	"uri": "//localhost:1313/vi/3-practice/1-create-a-s3-bucket/",
+	"title": "Tạo S3 Bucket",
+	"tags": [],
+	"description": "",
+	"content": "Tạo S3 Bucket Tìm S3, nhấp vào S3. Nhấp vào Create bucket. Nhập tên Bucket, giữ các giá trị mặc định, sau đó nhấp vào Create bucket. Bucket đã được tạo thành công. Nhấp vào s3-data-lex, sau đó nhấp vào Upload và chọn các tài liệu để tải lên S3. Nhấp vào Upload để hoàn tất việc tải lên file Tài liệu đã được tải lên thành công vào S3. "
+},
+{
+	"uri": "//localhost:1313/vi/2-preparation/",
+	"title": "Chuẩn bị",
+	"tags": [],
+	"description": "",
+	"content": "Nội dung Creating IAM User Model Requirements "
+},
+{
+	"uri": "//localhost:1313/vi/2-preparation/2-model-requirements/",
+	"title": "Yêu cầu về mô hình",
+	"tags": [],
+	"description": "",
+	"content": "Yêu cầu của Amazon Bedrock Truy cập vào các Mô Hình Cơ Sở Nếu bạn muốn tương tác với các mô hình từ Amazon Bedrock, bạn cần yêu cầu truy cập vào các mô hình cơ sở tại một trong các khu vực mà Amazon Bedrock có sẵn. Hãy chắc chắn đọc và chấp nhận các thỏa thuận giấy phép người dùng cuối (EULA) của các mô hình.\nBạn có thể triển khai giải pháp đến một khu vực khác so với khu vực bạn yêu cầu quyền truy cập vào Mô Hình Cơ Sở. Mặc dù việc phê duyệt quyền truy cập Mô Hình Cơ Sở là ngay lập tức, nhưng có thể mất vài phút để nhận được quyền truy cập và thấy danh sách các mô hình trong giao diện người dùng.\nTìm kiếm Bedrock Chọn Bedrock Chọn Model access Chọn Modify model access Chọn Next Chọn Submit Amazon Bedrock "
+},
+{
+	"uri": "//localhost:1313/vi/3-practice/2-create-a-knowledge-bases/",
+	"title": "Tạo Cơ sở kiến thức",
+	"tags": [],
+	"description": "",
+	"content": "Tạo Cơ sở kiến thức cho Amazon Bedrock Nhập Bedrock và chọn Amazon Bedrock. Chọn Knowledge Bases, chọn Create sau đó chọn Knowledge Base with vector store. Trong bước Provide knowledge Base details, có sẵn Knowledge Base name (có thể đổi tên khác nếu muốn): Chọn Create and use a new service role. Chọn Amazon S3 cho Data source details. Nhấn Next. Trong bước Configure data source, có sẵn tên Data source name (có thể đổi tên khác nếu muốn): Trong phần S3 URL, Chọn Browse S3 và chọn vào s3-data-lex đã thêm vào S3 trước đó. Nhấn Select model, Cửa sổ Select model xuất hiện: Chọn Amazon. Chọn Titan Embeddings G1 - Text V1.2. Nhấn Apply. Giữ nguyên lựa chọn Quick create a new vector store trong Vector database, sau đó nhấn Next. Nhấn Create Knowledge Bases để hoàn tất việc tạo Knowledge Base. Knowledge Base đã được tạo thành công. Để Knowledge Bases này có thể hoạt động, tick vào knowledge base vừa được tạo để đồng bộ hóa, sau đó nhấn Sync. Đồng bộ hóa thành công. "
+},
+{
+	"uri": "//localhost:1313/vi/3-practice/3-create-a-amazon-lex/",
+	"title": "Tạo Amazon Lex",
+	"tags": [],
+	"description": "",
+	"content": "Tạo Amazon Lex Tìm kiếm Lex, sau đó chọn Amazon Lex. Nhấn Create bot để tạo chatbot Nhập ChatbotAI trong ô Bot name, sau đó Create a role with basic Amazon Lex permissions. Trong Children\u0026rsquo;s Online Privacy Protection Act (COPPA), chọn No, sau đó chọn Next để sang bước tiếp theo. Trong trang Add language to bot: Chọn language. Chọn Voice interaction Sau đó, chọn Done. Trong trang Intent:NewIntent: Nhập ChatBotIntent trong Intent name. Trong mục Samle utterances, nhập các câu mở đầu để chatbot bắt đầu trả lời. Trong mục intial response, nhập Hi! How can I help you today? trong Message-optinal, sau đó chọn Advanced options. Sau đó chọn Wait for users input trong Next step in conversation để chuyển thành đợi người dùng nhập vào mới trả lời tiếp, nhấn Update options lưu lại. Nhấn Save intent để lưu những thông tin vừa rồi đã chọn. Trong trang Intents, nhấn Add intent, sau đó chọn Use built-in intent. Giao diện Use build-in intent được mở ra: Chọn AMAZON QnAIntent - GenAI feature trong Built-in intent. Nhập QnABotIntent trong Intent name. Nhấn Add để đóng. Trong trang QnABotIntent: Chọn nhà cung cấp model Anthropic. Chọn model Claude3 Haiku. Chọn Knowledge base for Amazon bedrock. Amazon Bedrock id hiển thị, nhớ lưu lại để dùng cho bước tiếp theo. Nhấn Save intent để lưu những nội dung vừa chọn. Nhấn Build, chờ một vài phút để quá trình build hoàn tất, sau đó nhấn Test để sử dụng chatbot. "
+},
+{
+	"uri": "//localhost:1313/vi/3-practice/",
+	"title": "Thực hành",
+	"tags": [],
+	"description": "",
+	"content": "Nội dung Creating S3 Bucket Creating Knowledge Bases Creating Amazon Lex "
+},
+{
+	"uri": "//localhost:1313/vi/4-test-result/",
+	"title": "Kiểm tra kết quả",
+	"tags": [],
+	"description": "",
+	"content": "Kiểm tra kết quả Đầu tiên để bắt đầu hỏi Chatbot, nhập Hello. Chatbot trả lời lại Hi! How can I help you today. Sau đó chúng ta có dữ liệu được đưa vào S3 lúc trước như sau. Hỏi chatbot với câu hỏi Introducing me to Cho Ray Hospital để hỏi chat bot. Chatbot trả lời lại đúng với thông tin trong dữ liệu được trước đó. Tiếp tục hỏi thêm với câu hỏi khác, ta có dữ liệu có sẵn như sau. Nhập Can you name some doctors from EasyMed Hospital? để tiếp tục hỏi và nhận được câu trả lời giống với dữ liệu cho trước. Chatbot trả lời đúng với những thông tin được đưa vào trước đó. "
+},
+{
+	"uri": "//localhost:1313/vi/5-clean-up-resources/",
+	"title": "Dọn dẹp tài nguyên",
+	"tags": [],
+	"description": "",
+	"content": "Để tránh chi phí không cần thiết, hãy xóa các tài nguyên bạn đã tạo trong bài tập này. Các bước sau sẽ xóa Knowledge Bases trong Amazon Bedrock, Collection trong Amazon Opensearch, dữ liệu được lưu trong Amazon S3 và chatbot trong Amazon Lex.\nNội dung:\nXóa Knowledge Bases Xóa Opensearch Xóa S3 Bucket Xóa Amazon Lex Xóa Knowledge Bases Truy cập vào Amazon Bedrock Console Chọn Knowledge Bases, chọn Knowledge Bases đã tạo trước đó. Sau đó bấm Delete. Nhập delete, sau đó nhấn Delete Xóa Opensearch Truy cập vào Amazon Opensearch Console Trong mục Serverless, chọn Dashboard Chọn Collection đã tạo, sau đó bấm Delete Nhập confirm để xác nhận, sau đó nhấn Delete Xóa S3 Bucket Truy cập vào Amazon S3 Console Chọn s3-data-lex, sau đó nhấn Delete Nhấn Empty bucket Nhập permanently delete, sau đó nhấn Empty Nhập d3-data-lex, sau đó nhấn Delete bucket Xóa Amazon Lex Truy cập vào Amazon Lex Console Chọn Bots: ChatbotAI, sau đó chọn Delete trong Action để xóa chatbot "
+},
+{
+	"uri": "//localhost:1313/vi/",
+	"title": "Xây dựng Chatbot AI với Amazon Lex và Cơ sở Kiến thức của Amazon Bedrock",
+	"tags": [],
+	"description": "",
+	"content": "Xây dựng Chatbot AI với Amazon Lex và Cơ sở Kiến thức của Amazon Bedrock Tổng quan Trong thời đại công nghệ số hiện nay, việc cung cấp dịch vụ khách hàng nhanh chóng và hiệu quả là vô cùng quan trọng. Chatbot AI đã trở thành công cụ mạnh mẽ giúp các doanh nghiệp tự động hóa quá trình tương tác với khách hàng, giảm thiểu chi phí và nâng cao trải nghiệm người dùng. Đề tài này tập trung vào việc xây dựng một chatbot AI sử dụng Amazon Lex kết hợp với Knowledge Bases cho Amazon Bedrock, tạo ra một giải pháp chatbot thông minh, linh hoạt và có khả năng trả lời chính xác, bám sát vào ngữ cảnh của từng câu hỏi.\nNội dung chính Giới thiệu Chuẩn bị Thực hành Kết quả Dọn dẹp tài nguyên "
+},
+{
+	"uri": "//localhost:1313/vi/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost:1313/vi/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]

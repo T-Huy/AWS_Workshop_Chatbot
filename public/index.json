@@ -1,0 +1,92 @@
+[
+{
+	"uri": "//localhost:1313/2-preparation/1-create-an-iam-user/",
+	"title": "Create an IAM User",
+	"tags": [],
+	"description": "",
+	"content": "Creat an IAM User Search IAM and click IAM. In the left navigation bar, select User, then click Create User On the Specify user details page, enter the following information: User name: Huy. Access type: tick AWS Management Console access to allow users to access AWS Management Console. Console password: select Custom password and enter the password you like for the user. Require password reset: uncheck this option so that the user does not need to change the password when logging in for the first time Check and select Next. On the Set permissions page, we operate: Select Attach policies directly to choose the method of assigning permissions directly to the user. An IAM User with AdministratorAccess policy granted (for production, we recommend restricting access as needed). On the Add tags (optional) page, keep the defaults and select Next. On the Review and create page, check the information and select Create user When the initialization is complete, press Return to users list to return to the IAM Console. IAM User has been successfully created. "
+},
+{
+	"uri": "//localhost:1313/1-introduction/",
+	"title": "Introduction",
+	"tags": [],
+	"description": "",
+	"content": "Content:\nKey Components Workshop Objectives Architecture Key Components Amazon Lex: A fully managed AI service for building conversational interfaces using voice and text. It utilizes natural language understanding (NLU) and automatic speech recognition (ASR) to create dynamic and engaging chat experiences. Knowledge Bases for Amazon Bedrock: Enhances the chatbot’s capabilities by integrating external knowledge sources. This enables retrieval-augmented generation (RAG), allowing the bot to provide accurate and context-aware responses based on real-time data. Workshop Objectives Learn how to set up and configure Amazon Lex to design chatbot interactions. Integrate Knowledge Bases for Amazon Bedrock to improve response accuracy. Implement retrieval-augmented generation (RAG) to pull real-time knowledge from documents, databases, or web sources. Architecture "
+},
+{
+	"uri": "//localhost:1313/3-practice/1-create-a-s3-bucket/",
+	"title": "Create a S3 Bucket",
+	"tags": [],
+	"description": "",
+	"content": "Create a S3 Bucket Find S3, Click S3. Click Create bucket. Enter the Bucket name, keep the defaults then click Create bucket. Bucket has been successfully created. Click s3-data-lex, then click Upload and select documents to upload them to S3. Click Upload to complete the file upload. The document has been successfully uploaded to S3. "
+},
+{
+	"uri": "//localhost:1313/2-preparation/2-model-requirements/",
+	"title": "Model Requirements",
+	"tags": [],
+	"description": "",
+	"content": "Amazon Bedrock requirements Base Models Access If you are looking to interact with models from Amazon Bedrock, you need to request access to the base models in one of the regions where Amazon Bedrock is available. Make sure to read and accept models’ end-user license agreements or EULA.\nYou can deploy the solution to a different region from where you requested Base Model access. While the Base Model access approval is instant, it might take several minutes to get access and see the list of models in the UI.\nFind Bedrock Click Bedrock Click Model access Click Modify model access Click Next Click Submit Amazon Bedrock "
+},
+{
+	"uri": "//localhost:1313/2-preparation/",
+	"title": "Preparation",
+	"tags": [],
+	"description": "",
+	"content": "Content Create an IAM User Model Requirements "
+},
+{
+	"uri": "//localhost:1313/3-practice/2-create-a-knowledge-bases/",
+	"title": "Create a Knowledge Bases for Amazon Bedrock",
+	"tags": [],
+	"description": "",
+	"content": "Create a Knowledge Bases for Amazon Bedrock Enter Bedrock and select Amazon Bedrock. Select Knowledge Bases, click Create, then choose Knowledge Base with vector store. In the Provide knowledge Base details step, the Knowledge Base name is pre-filled (you can change it if desired): Select Create and use a new service role. Choose Amazon S3 for Data source details. Click Next. In the Configure data source step, the Data source name is pre-filled (you can change it if desired): In the S3 URL section, click Browse S3 and select s3-data-lex, which was previously added to S3. \\ Click Select model, and the Select model window will appear: Choose Amazon. Select Titan Embeddings G1 - Text V1.2. Click Apply. Keep the Quick create a new vector store option selected under Vector database, then click Next. Click Create Knowledge Bases to complete the creation of the Knowledge Base Knowledge Base has been successfully created To enable this Knowledge Base, tick the newly created knowledge base to sync it, then click Sync. Sync completed successfully "
+},
+{
+	"uri": "//localhost:1313/3-practice/3-create-a-amazon-lex/",
+	"title": "Create an Amazon Lex",
+	"tags": [],
+	"description": "",
+	"content": "Create an Amazon Lex Search for Lex, then select Amazon Lex. Click Create bot to create a chatbot. Enter ChatbotAI in the Bot name field, then select Create a role with basic Amazon Lex permissions. In the Children\u0026rsquo;s Online Privacy Protection Act (COPPA) section, select No, then click Next to proceed. On the Add language to bot page: Select language. Select Voice interaction. Then click Done. On the Intent:NewIntent page: Enter ChatBotIntent in the Intent name field. In the Sample utterances section, enter example phrases to trigger chatbot responses. In the Initial response section, enter Hi! How can I help you today? in the Message - optional field, then select Advanced options. In the Next step in conversation section, select Wait for user input to allow the chatbot to wait for the user\u0026rsquo;s response before proceeding, then click Update options to save. Click Save intent to save the configured settings. On the Intents page, click Add intent, then select Use built-in intent. The Use built-in intent interface appears: Select AMAZON QnAIntent - GenAI feature under Built-in intent. Enter QnABotIntent in the Intent name field. Click Add to confirm On the QnABotIntent page: Select the model provider Anthropic. Choose the model Claude3 Haiku. Select Knowledge base for Amazon Bedrock. The Amazon Bedrock ID will be displayed-be sure to save it for the next step. Click Save intent to save the settings Click Build, wait a few minutes for the build process to complete, then click Test to start using the chatbot. "
+},
+{
+	"uri": "//localhost:1313/3-practice/",
+	"title": "Practice",
+	"tags": [],
+	"description": "",
+	"content": "Content Create a S3 Bucket Create a Knowledge Bases for AmazonBedrock Create an Amazon Lex "
+},
+{
+	"uri": "//localhost:1313/4-test-result/",
+	"title": "Test Result",
+	"tags": [],
+	"description": "",
+	"content": "Test Result To start a conversation with the chatbot, enter Hello. The chatbot responds with Hi! How can I help you today?. Previously, we uploaded data to S3 as shown below. Ask the chatbot Introducing me to Cho Ray Hospital, and it will respond correctly based on the provided data. Continuing with another question, we have the following stored data. Enter Can you name some doctors from EasyMed Hospital? to ask the chatbot and receive a response that matches the provided data. The chatbot correctly responds based on the previously provided information. "
+},
+{
+	"uri": "//localhost:1313/5-clean-up-resources/",
+	"title": "Clean Up Resources",
+	"tags": [],
+	"description": "",
+	"content": "To avoid unnecessary costs, delete the resources you created in this exercise. The following steps will remove the Knowledge Bases in Amazon Bedrock, the Collection in Amazon OpenSearch, the data stored in Amazon S3 and the chatbot in Amazon Lex.\nContent:\nDelete the Knowledge Bases Delete the Opensearch Delete the S3 Bucket Delete the Amazon Lex Delete the Knowledge Bases Go to the Amazon Bedrock Console. Select Knowledge Bases, then choose the previously created Knowledge Base. Click Delete. Enter delete, then click Delete. Delete the Opensearch Go to the Amazon OpenSearch Console Under the Serverless section, select Dashboard. Choose the Collection you created, then click Delete Enter confirm to confirm, then click Delete Delete the S3 Bucket Go to the Amazon S3 Console. Select s3-data-lex, then click Delete. Click Empty bucket. Enter permanently delete, then click Empty. Enter s3-data-lex, then click Delete bucket. Delete the Amazon Lex Go to the Amazon Lex Console. Select the Bots ChatbotAI, then under Action, click Delete to remove the chatbot "
+},
+{
+	"uri": "//localhost:1313/",
+	"title": "Building a Chatbot AI with Amazon Lex and Knowledge Bases for Amazon Bedrock",
+	"tags": [],
+	"description": "",
+	"content": "Building a Chatbot AI with Amazon Lex and Knowledge Bases for Amazon Bedrock Overview In today\u0026rsquo;s digital era, providing fast and efficient customer service is crucial for businesses. AI chatbots have become a powerful tool for automating customer interactions, reducing costs, and enhancing user experience. This project focuses on building an AI chatbot using Amazon Lex combined with Knowledge Bases for Amazon Bedrock, creating an intelligent and flexible solution capable of delivering accurate and context-aware responses to user queries.\nMain Content Introduction Preparation Practice Test Result Clean Up Resources "
+},
+{
+	"uri": "//localhost:1313/categories/",
+	"title": "Categories",
+	"tags": [],
+	"description": "",
+	"content": ""
+},
+{
+	"uri": "//localhost:1313/tags/",
+	"title": "Tags",
+	"tags": [],
+	"description": "",
+	"content": ""
+}]
